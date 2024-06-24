@@ -5,6 +5,7 @@
     padding: 10px;
     height: 60px;
     color: white;
+    gap: 15px;
   }
   
   .header__logo {
@@ -29,7 +30,7 @@
     margin-right: 20px;
   }
   
-  .header__search input {
+  .header__input {
     height: 100%;
     width: 100%;
     border: none;
@@ -46,7 +47,7 @@
   
   .header__nav {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
   }
   
   .header__option {
@@ -57,7 +58,7 @@
     margin-right: 10px;
   }
   
-  .header__option h4 {
+  .headerText {
     margin: 0;
     font-size: 14px;
   }
